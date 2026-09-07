@@ -53,3 +53,35 @@ experimental_setup – consists of the required settings used for the experiment
 experimental_results – consists of the results from the experiments. This may include performance scores such as AUC, NDCG, and accuracy, as well as confusion matrices and other experiment results.
 statistical_scripts – consists of the scripts used for statistical tests, A/B testing, and checking that the data is correct and reliable.
 visualisation_scripts – consists of the scripts for creating graphs and charts. These can include EDA graphs, feature importance charts, and visualizations used in the final report.
+
+# RAAIDD LOG
+# RISKS : 
+- Some of the clickstream data might have missing customer data.
+- Sellers might create fake clicks or even go as far as paying people to do it for them.
+- The model might favor popular products and which might result as a popularity bias.
+- Customers preferences might get to change over time and this requires up keeping from the seller. 
+
+# ACTIONS :
+- It would be very important to ensure examining and cleaning the data to ensure high accuracy on  the results and outcome.
+- I would train a baseline model by using Logistic Regression.
+- To understand the data better I would perform an Exploratory Data Analysis.
+- I would the test model by using metrics such as AUC or NDCG.
+
+# ASSUMPTIONS :
+- Historical data would be useful for predicting customer behavior. 
+- Product categories are labelled consistently across all SKU’s.
+- Is the system can handle real time predictions for customer preference.
+- Does the training data have enough clicks per product ,to help in understand customer preferences better .
+
+# ISSUES : We don’t have any at the moment, but there might be a potential cold start from customers until they develop trust and confidence in the platform. 
+
+# DECISIONS
+- We have decided to use the Click Through Rate as the main decision for selling our products, because clicks provide more data than purchase and can help the model learn which sponsored customers are mostly interested in. 
+
+# DEPENDENCIES :
+- Clean data is required before creating user and product features.
+- Click stream data is needed and must be available to understand customer behavior. 
+- The product catalogue must be available before product features.
+- The model must be trained and evaluated before recommending it for use. 
+
+
