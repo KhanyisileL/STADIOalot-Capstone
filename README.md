@@ -73,7 +73,8 @@ visualisation_scripts – consists of the scripts for creating graphs and charts
 - Is the system can handle real time predictions for customer preference.
 - Does the training data have enough clicks per product ,to help in understand customer preferences better .
 
-# ISSUES : We don’t have any at the moment, but there might be a potential cold start from customers until they develop trust and confidence in the platform. 
+# ISSUES : 
+We don’t have any at the moment, but there might be a potential cold start from customers until they develop trust and confidence in the platform. 
 
 # DECISIONS
 - We have decided to use the Click Through Rate as the main decision for selling our products, because clicks provide more data than purchase and can help the model learn which sponsored customers are mostly interested in. 
