@@ -85,4 +85,5 @@ We don’t have any at the moment, but there might be a potential cold start fro
 - The product catalogue must be available before product features.
 - The model must be trained and evaluated before recommending it for use. 
 
-
+# SS3 Video Presentation
+([Click here to watch the Capstone Presentation]https://youtu.be/Y14j93brsqw)
